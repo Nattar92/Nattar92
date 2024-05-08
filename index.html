@@ -4,126 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rezyume Natalia Tarapatina</title>
+    <link rel="stylesheet" href="styles.css" rel="stylesheet">
 </head>
-<body>
-    <table cellspacing="15">
-        <tr>
-            <td>
-                <img src="ava.jpg" alt="тут моё фото" width="200">
-            </td>
-            <td>
-                <h1>
-                    Наталья Тарапатина
-                </h1>
-                <p>
-                    <em>
-                        Всем привет!
-                    </em>
-                </p>
-                <p>
-                    <em>
-                        Я профессиональный повар, который вдохновляется не только кулинарией,
-                     но и желанием раскрасить свой мир новыми знаниями.
-                     В настоящее время я погружаюсь в мир IT, активно <strong> изучаю HTML, CSS и JavaScript, </strong>
-                     и стремлюсь расширять свои горизонты в этой области. Мое стремление к обучению
-                     и развитию делает меня уникальным кандидатом, готовым внести свежие идеи и
-                    подходы в любой проект.
-                    </em>
-                </p>    
-            </td>
-        </tr>
-        
-    </table>
-   
-   
-    <hr>
-    <h2>
-        Мои социальные сети 
-    </h2>
-    <ul>
-        <li>
-            <a href="https://vk.com/natali_net1"target="blank">   
-                vk
-            </a>
-        </li>
-        <li>
-            <a href="https://ok.ru/natasha.myrashko"target="blank" >
-                ok
-            </a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/natasha_tarapatina92/"target="blank">
-                inst
-            </a>
-        </li>
-    </ul>
-    <hr>
-    
-    
-    <h2>
-        Моя почта
-    </h2>
-    <ol>
-        <li>
-            <a href="mailto:nat.tarapatina@gmail.com">nat.tarapatina@gmail.com</a>
-        </li>
-        <li>
-            <a href="mailto:natasha.myrashko@mail.ru">natasha.myrashko@mail.ru</a>
-        </li>
-    </ol>
-        <h2>
-    <hr>
-        Опыт работы
-        </h2>
-    <table border="3">
-        <tr>
-            <th>Компания</th>
-            <th>Должность</th>
-            <th>Год</th>
-        </tr>
-
-        <tr>
-            <td>БелИнтерПродукт</td>
-            <td>Повар</td>
-            <td>2012-2017</td>
-        </tr>
-        <tr>
-            <td>КСТМИКС</td>
-            <td>Продовец</td>
-            <td>2017-2019</td>
-        </tr>
-        <tr>
-            <td>Санта Ритейл</td>
-            <td>Повар</td>
-            <td>2023-2023</td>
-        </tr>
-    </table>
-    <hr>
-    <h2>
-        Связаться со мною
-    </h2>
-    <form action="/" >
-        <label for="name">
-            Ваше имя
-        </label>
-        <input type="text" id="name" placeholder="Введите ваше имя" >
-
-<br>
-
-        <label for="email">
-             Ваш email
-        </label>
-        <input type="email" id="email" placeholder="Введите ваше email" >
-        <br>
-        <label for="text">
-            Ваше сообщение
-       </label>
-       <br>
-       <textarea name="text" id="text" rows="2" cols="15"></textarea>
-        <input type="submit">
-        
-    </form>
-    
-    
-</body>
+    <body>
+        <div class="container">
+            <div class="info">
+                <div id="id-ava">
+                    <img src="ava.jpg" alt="тут моё фото"  class="ava">
+                </div>
+                <div id="id-text">
+                    <div class="info-text">
+                        <h1>
+                            Наталья Тарапатина
+                        </h1>
+                            <p>
+                                Всем привет!  
+                            </p>
+                            <p>
+                                Я профессиональный повар, который вдохновляется не только кулинарией,
+                                но и желанием раскрасить свой мир новыми знаниями.
+                                В настоящее время я погружаюсь в мир IT, активно <strong> изучаю HTML, CSS и JavaScript, </strong>
+                                и стремлюсь расширять свои горизонты в этой области. Мое стремление к обучению
+                                и развитию делает меня уникальным кандидатом, готовым внести свежие идеи и
+                                подходы в любой проект.    
+                            </p>
+                    </div>
+                </div>
+            </div>
+                        <div class="social card bg-red">
+                            <h4>
+                                Мои социальные сети 
+                            </h4>
+                             <a href="https://vk.com/natali_net1"target="blank">
+                                <img src="icon-vk.png" alt="vk">
+                            </a>
+                            <a href="https://www.instagram.com/natasha_tarapatina92/"target="blank">
+                                <img src="icon-instagram.png" alt="instagram">
+                            </a>
+                            <a href="https://t.me/Natasha091092"target="blank">
+                                <img src="icon-телеграм.png" alt="Telegram">
+                            </a>
+                        </div>
+             
+            <div class="card bg-grin">   
+                <h2>
+                    Моя почта
+                </h2>
+                    <ol>
+                        <li>
+                            <a href="mailto:nat.tarapatina@gmail.com">nat.tarapatina@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="mailto:natasha.myrashko@mail.ru">natasha.myrashko@mail.ru</a>
+                        </li>
+                    </ol>
+            </div>
+            <div class="card bg-yellow" >
+                <h2>
+                Опыт работы
+                </h2>
+                    <table class="table"
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>БелИнтерПродукт</td>
+                            <td>Повар</td>
+                            <td>2012-2017</td>
+                        </tr>
+                        <tr>
+                            <td>КСТМИКС</td>
+                            <td>Продaвец</td>
+                            <td>2017-2019</td>
+                        </tr>
+                        <tr>
+                            <td>Санта Ритейл</td>
+                            <td>Повар</td>
+                            <td>2023-2023</td>
+                        </tr>
+                        <tr>
+                            <td>Изучение курсов </td>
+                            <td>HTML,CSS,JavaScript</td>
+                            <td>2023-now</td>
+                        </tr>
+                    </table>
+            </div>
+            <div class="contact">
+                <h2>
+                    Связаться со мною
+                </h2>
+                    <form action="/" >
+                        <div class="row">
+                            <div class="form-group">
+                                <label for="name">
+                                    Ваше имя
+                                </label>
+                                    <input type="text" id="name" placeholder="Введите ваше имя" >
+                            </div> 
+                            <div class="form-group">
+                                <label for="email">
+                                    Ваш email
+                                </label>
+                                    <input type="email" id="email" placeholder="Введите ваше email" >
+                            </div>
+                        </div>
+                                
+                            <div class="form-group">  
+                                <label for="text">
+                                    Ваше сообщение
+                                </label>
+                                    <textarea  id="text" rows="2" cols="15"></textarea>
+                            </div>
+                                <input class="btn" type="submit" value="Cвязаться!">  
+                    </form> 
+            </div>
+        </div>
+        <div class="position">
+            <div class="box">
+                
+            </div>
+        </div>
+ 
+    <div  style="margin-bottom: 500px;;"></div>    
+         
+    </body>
 </html>
