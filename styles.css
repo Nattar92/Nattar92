@@ -6,7 +6,9 @@ body{
     color: #0f141e;
     font-size: 16px;
     font-weight: normal;
-    font-family: "Roboto", sans-serif;  
+    font-family: "Roboto", sans-serif;
+    
+
 }
 a {
     color: black;
@@ -29,6 +31,38 @@ a:active{
     display: flex;
     margin-bottom: 20px;
 }
+
+@media (max-width: 1200px) {
+    .info {
+        width: 970px;
+        display: contents;
+        
+    
+    }
+    }
+@media (max-width:970px) {
+    .info {
+        width: 768px;
+        display: contents;
+    
+    }
+}
+@media (max-width:768px) {
+    .info {
+        width: 480px;
+        display: contents;
+    }
+
+}
+@media (max-width:480px) {
+    .info {
+        width: 450px;
+        display: contents;
+    }
+
+
+}
+
 .info-text > h1 {
     margin-bottom: 0;
     padding: 0;
@@ -52,10 +86,11 @@ a:active{
 }
 
 .container {
-    max-width:750px;
+    max-width: 750px;
     margin: auto;
-
+    padding: 0 20px;
 }
+
 .card {
     padding: 15px 20px;
     margin-bottom: 20px;
